@@ -1,0 +1,29 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.to-do-list{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.Heading:hover {
+  background-color: blueviolet;
+}
+
+.list {
+  list-style: none;
+  padding: 0;
+  text-align: left;
+  font-family: Verdana, Geneva, Tahoma, sans-serif
+}
+
+li::before {
+    content: "😕 ";
+}
+
+li:hover {
+  background-color: orange; 
+}
